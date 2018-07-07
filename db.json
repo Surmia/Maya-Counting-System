@@ -1,8 +1,0 @@
-{
-  "lessons": [
-    {"title": "Liczby do 19", "text": "Majowie zapisywali liczby za pomocą kropek i kresek. Jedna kropka odpowiadała liczbie 1, dwie kropki – 2, itd. Kreska odpowiadała 5. Liczby były zapisywane w taki sposób, że kreski znajdowały się na dole, a kropki na górze. Tak więc liczba 12 (patrząc od dołu) to jedna nad drugą dwie kreski, a ponad nimi usytuowane obok siebie dwie kropki.", "correctAnswer": "14"},
-    {"title": "Większe liczby", "text": "Obecnie stosujemy system dziesiętny, który jest oparty na wielokrotnościach liczby 10. Cyfra znajdująca się w liczbie na samym końcu jest mnożona przez 1, druga cyfra od końca jest mnożona przez 10, kolejna przez 100 (10*10),  następna przez 1000 (10*10*10), itd. Czyli 235 to w rzeczywistości 100*2+10*3+1*5. U Majów było podobnie, tylko że zamiast systemu dziesiętnego stosowali system dwudziestkowy. Cyfry więc były od 1 do 19 i te które znajdowały się na ostatniej pozycji mnożone były przez 1,", "correctAnswer": "27"},
-    {"title": "Większe liczby", "text": "Coś tam", "correctAnswer": "926"},
-    {"title": "Liczby z zerem", "text": "Coś tam vol. 2", "correctAnswer": "40"}
-  ]
-}

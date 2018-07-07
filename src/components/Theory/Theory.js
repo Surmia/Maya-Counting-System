@@ -3,6 +3,7 @@ import 'whatwg-fetch';
 import {
     Link
 } from 'react-router-dom';
+import firebase from 'firebase';
 
 import './Theory.css';
 
@@ -135,13 +136,13 @@ export default class TheoryMain extends React.Component {
     };
 
     componentDidMount() {
-        fetch('http://my-json-server.typicode.com/Surmia/Maya-Counting-System/lessons/')
-            .then(res => res.json())
-            .then(data => {
-                this.setState({
-                    lessons: data
-                })
-            });
+        const itemsRef = firebase.database().ref('lessons');
+        itemsRef.on('value', data => {
+            this.setState({
+                lessons: data.val()
+            })
+        });
+
     }
 
     render() {
