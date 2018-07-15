@@ -2,7 +2,7 @@
   "name": "mayan-numeral-system",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://surmia.github.io/Mayan-Numeral-System/",
+  "homepage": "https://surmia.github.io/Maya-Counting-System/",
   "dependencies": {
     "firebase": "^5.2.0",
     "gh-pages": "^1.2.0",
